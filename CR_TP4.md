@@ -129,11 +129,11 @@ sudo gpasswd -d u3 groupe2
 #### 16.Modifiez le compte de u4
 
 ```
-sudo usermod -e 2020-06-01 u4   ->  il expire au 1er juin 2020
-chag -M 90 u4                   ->  il faut changer de mot de passe avant 90 jours
-chag -m 5 u4                    ->  il faut attendre 5 jours pour modifier un mot de passe
-chag -w 14 u4                   ->  l’utilisateur est averti 14 jours avant l’expiration de son mot de passe
-chag -I 30 u4                   ->  le compte sera bloqué 30 jours après expiration du mot de passe
+sudo usermod -e 2020-06-01 u4  ->  il expire au 1er juin 2020
+chag -M 90 u4                  ->  il faut changer de mot de passe avant 90 jours
+chag -m 5 u4                   ->  il faut attendre 5 jours pour modifier un mot de passe
+chag -w 14 u4                  ->  l’utilisateur est averti 14 jours avant l’expiration de son mot de passe
+chag -I 30 u4                  ->  le compte sera bloqué 30 jours après expiration du mot de passe
 ```
 
 #### 17.Quel est l’interpréteur de commandes (Shell) de l’utilisateur root ?
